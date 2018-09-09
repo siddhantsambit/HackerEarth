@@ -30,7 +30,7 @@ class VowelQuery {
         	k[i] = s.nextInt();
         }
         s.close();
-        for(int i=0; i<Q; i++){
+        for(int i=0; i<Q; i++){ 
         	if(k[i] > name.length()){
         		System.out.println(-1);
         	}
